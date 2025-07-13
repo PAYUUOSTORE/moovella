@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Ghaniya Collection - Premium Sportique Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        
+
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #faf6f2;
         }
-        
+
         .product-card:hover .product-image {
             transform: scale(1.03);
             transition: transform 0.3s ease;
         }
-        
+
         .badge {
             animation: pulse 2s infinite;
         }
-        
+
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
         }
-        
+
         .search-bar:focus {
             outline: none;
             box-shadow: 0 0 0 2px #d1a570;
         }
-        
+
         .buy-button {
             transition: all 0.3s ease;
         }
-        
+
         .buy-button:hover {
             background-color: #92400e;
             transform: translateY(-2px);
@@ -55,18 +55,20 @@
             <div class="flex items-center space-x-4">
                 <button class="text-gray-600">
                     <i class="fas fa-search text-lg"></i>
+                </button>
+            </div>
         </div>
     </header>
 
     <!-- Hero Banner -->
     <div class="relative bg-gradient-to-r from-indigo-100 to-indigo-50 py-8 px-4">
         <div class="container mx-auto flex flex-col md:flex-row items-center">
-            <div class="md:w-1/2 mb-6 md:mb-0 text-center">
+            <div class="md:w-1/2 mb-6 md:mb-0 text-center md:text-left">
                 <h2 class="text-3xl font-bold text-indigo-900 mb-2">New Collection 2025</h2>
                 <p class="text-indigo-800 mb-4">Premium Quality Sportique With Modern Designs</p>
             </div>
             <div class="md:w-1/2 flex justify-center">
-                <img src="https://st3.depositphotos.com/3110937/16430/i/600/depositphotos_164302944-stock-photo-young-fitness-woman-healthy-and.jpg alt="Sport Model" class="w-70 h-100">
+                <img loading="lazy" src="https://st3.depositphotos.com/3110937/16430/i/600/depositphotos_164302944-stock-photo-young-fitness-woman-healthy-and.jpg" alt="Sport Model" class="w-70 h-100 rounded-lg shadow-md"/>
             </div>
         </div>
     </div>
@@ -74,14 +76,14 @@
     <!-- Products Grid -->
     <div class="container mx-auto px-4 py-6">
         <div class="flex items-center justify-between mb-6">
-            <h3 class="text-lg font-semibold text-gray-800">New Arrival Products </h3>
+            <h3 class="text-lg font-semibold text-gray-800">New Arrival Products</h3>
         </div>
-        
+
         <div class="grid grid-cols-2 gap-4">
             <!-- Product 1 -->
             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
                 <div class="relative">
-                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasm-m55myfs2wvpeee.webp" alt="Sport 1" class="w-full h-48 object-cover product-image">
+                    <img loading="lazy" src="https://down-id.img.susercontent.com/file/id-11134207-7rasm-m55myfs2wvpeee.webp" alt="Yoga Skirtpants" class="w-full h-48 object-cover product-image" />
                     <div class="absolute top-2 right-2 bg-pink-600 text-white text-xs px-2 py-1 rounded-full badge">New</div>
                 </div>
                 <div class="p-3">
@@ -107,11 +109,11 @@
                     </a>
                 </div>
             </div>
-            
+
             <!-- Product 2 -->
-             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+            <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
                 <div class="relative">
-                    <img src="https://down-my.img.susercontent.com/file/sg-11134201-7qvff-lhjwgbi95sjce3.webp" alt="Sport 2" class="w-full h-48 object-cover product-image">
+                    <img loading="lazy" src="https://down-my.img.susercontent.com/file/sg-11134201-7qvff-lhjwgbi95sjce3.webp" alt="Yoga Socks Silicone" class="w-full h-48 object-cover product-image" />
                     <div class="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full badge">Hot</div>
                 </div>
                 <div class="p-3">
@@ -137,9 +139,6 @@
                     </a>
                 </div>
             </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -151,17 +150,16 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-indigo-600 text-white py-1 px-4">
-    <footer class="premium-bg text-white py-8">
-        <div class="container mx-auto px-4">
+    <footer class="bg-indigo-600 text-white py-8 px-4">
+        <div class="container mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0 text-center">
-                    <h3 class="text-xl font-bold">
-                        GHANIYA SPORTIQUE COLLECTION
-                    </h3>
-                    <p class="text-white-200 mt-2">Fashion Premium Untuk sportique Modern</p>
+                    <h3 class="text-xl font-bold">GHANIYA SPORTIQUE COLLECTION</h3>
+                    <p class="mt-2 text-sm">Fashion Premium Untuk Sportique Modern</p>
                 </div>
-                <p class="text-center text-white-200 text-sm">© 2025 Beauty Sport. All rights reserved.</p>
+                <p class="text-center text-sm">© 2025 Ghaniya Sportique. All rights reserved.</p>
             </div>
         </div>
     </footer>
+</body>
+</html>
